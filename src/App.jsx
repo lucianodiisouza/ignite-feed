@@ -1,4 +1,4 @@
-import { Header, Sidebar } from './components'
+import { Header, Post, Sidebar } from './components'
 
 import styles from './App.module.css'
 import './global.css'
@@ -11,27 +11,9 @@ function App() {
       <div className={styles.wrapper}>
         <Sidebar />
         <main>
-          <div>
-            <h1>Luciano Souza</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-              saepe!
-            </p>
-          </div>
-          <div>
-            <h1>Luciano Souza</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-              saepe!
-            </p>
-          </div>
-          <div>
-            <h1>Luciano Souza</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-              saepe!
-            </p>
-          </div>
+          <Post />
+          <Post />
+          <Post />
         </main>
       </div>
     </div>
