@@ -14,8 +14,8 @@ const Comment = () => {
                 Ha cerca de 1h atrás.
               </time>
             </div>
-            <button title='Deletar comentário'>
-              <Trash size={20} />
+            <button title='Deletar comentário' className={styles.deleteBtn}>
+              <Trash size={24} />
             </button>
           </header>
           <p>Muito bom, Parabéns!</p>
